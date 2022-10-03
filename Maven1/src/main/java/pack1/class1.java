@@ -11,7 +11,6 @@ public class class1 {
 		
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Riyas\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		ChromeDriver ob=new ChromeDriver();
-		ob.get("https:www.facebook.com");
 		
 
 	}
