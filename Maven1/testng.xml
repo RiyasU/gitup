@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<exclude name="one"></exclude>
+
+</run>
+
+
+</groups>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNGatributes.T2"/>
+      <class name="pack1.class2"/>
+      <class name="pack1.class1"/>
+      <class name="TestNGatributes.Realtime"/>
+      <class name="pack2.class3"/>
+      <class name="TestNGatributes.TestNg1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
