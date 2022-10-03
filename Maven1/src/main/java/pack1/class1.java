@@ -13,9 +13,7 @@ public class class1 {
 		ChromeDriver ob=new ChromeDriver();
 		ob.get("https:www.facebook.com");
 		
-		ob.findElementByLinkText("Forgotten password?").click();
-		Thread.sleep(3000);
-		ob.quit();
+
 	}
 
 }
